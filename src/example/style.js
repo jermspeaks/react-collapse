@@ -27,3 +27,11 @@ export const getContent = height => ({
   background: 'rgba(96, 125, 139, 0.6)',
   borderRadius: height / 2
 });
+
+export const getWidthContent = width => ({
+  width,
+  height: 400,
+  overflow: 'hidden',
+  background: 'rgba(96, 125, 139, 0.6)',
+  borderRadius: width / 2
+});

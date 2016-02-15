@@ -13,6 +13,7 @@ Component-wrapper for collapse animation with react-motion for elements with var
 
 ![React Collapse](src/example/react-collapse.gif)
 
+**Modified for side collapsing**
 
 ## Installation
 
