@@ -3,14 +3,14 @@
   "version": "0.0.0",
   "description": "Component-wrapper for collapse animation with react-motion for elements with variable (and dynamic) height",
   "main": [
-    "build/react-collapse.js",
-    "build/react-collapse.js.map",
-    "build/react-collapse.min.js",
-    "build/react-collapse.min.js.map"
+    "build/react-side-collapse.js",
+    "build/react-side-collapse.js.map",
+    "build/react-side-collapse.min.js",
+    "build/react-side-collapse.min.js.map"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/nkbt/react-collapse.git"
+    "url": "https://github.com/jermspeaks/react-side-collapse.git"
   },
   "keywords": [
     "component",
@@ -22,14 +22,14 @@
     "slide-up"
   ],
   "authors": [
-    "Nik Butenko <nik@butenko.me> (http://butenko.me/)"
+    "Nik Butenko <nik@butenko.me> (http://butenko.me/)",
+    "Jeremy Wong <jeremy@craftbyzen.com> (http://craftbyzen.com)"
   ],
   "license": "MIT",
   "homepage": "https://github.com/nkbt/react-collapse",
   "dependencies": {
     "react": "^0.14",
     "react-motion": "^0.3",
-    "react-height": "https://npmcdn.com/react-height@^2/bower.zip"
   },
   "ignore": [
     "**/.*",
