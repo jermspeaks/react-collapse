@@ -1,4 +1,4 @@
-# react-collapse
+# react-side-collapse
 
 [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nkbt/help)
 
@@ -13,22 +13,24 @@ Component-wrapper for collapse animation with react-motion for elements with var
 
 ![React Collapse](src/example/react-collapse.gif)
 
-**Modified for side collapsing**
+**This is a fork of [react-collapse](https://github.com/nkbt/react-collapse). This repo has been modified for collapsing horizontally**
 
 ## Installation
 
 ### NPM
 
 ```sh
-npm install --save react react-motion react-height react-collapse
+npm install --save react react-motion react-side-collapse
 ```
 
-Don't forget to manually install peer dependencies (`react`, `react-motion`, `react-height`) if you use npm@3.
+Don't forget to manually install peer dependencies (`react`, `react-motion`) if you use npm@3.
 
+
+**TODO:** I haven't updated bower side side collapsing library
 
 ### Bower:
 ```sh
-bower install --save https://npmcdn.com/react-collapse/bower.zip
+bower install --save https://npmcdn.com/react-side-collapse/bower.zip
 ```
 
 or in `bower.json`
@@ -45,10 +47,10 @@ then include as
 ```html
 <!-- Dependencies -->
 <script src="bower_components/react/react.js"></script>
-<script src="bower_components/react-height/build/react-height.js"></script>
+<!-- <script src="bower_components/react-height/build/react-height.js"></script>*/ -->
 <script src="bower_components/react-motion/build/react-motion.js"></script>
 <!-- React-collapse -->
-<script src="bower_components/react-collapse/build/react-collapse.js"></script>
+<script src="bower_components/react-side-collapse/build/react-side-collapse.js"></script>
 ```
 
 

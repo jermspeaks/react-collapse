@@ -1,6 +1,6 @@
 {
   "name": "react-side-collapse",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Component-wrapper for collapse animation with react-motion for elements with variable (and dynamic) height",
   "main": "lib/index.js",
   "scripts": {
@@ -46,8 +46,7 @@
   },
   "peerDependencies": {
     "react": "^0.14",
-    "react-motion": "^0.4",
-    "react-height": "^2"
+    "react-motion": "^0.4"
   },
   "dependencies": {
     "react-addons-pure-render-mixin": "^0.14"
