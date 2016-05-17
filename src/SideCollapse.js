@@ -65,7 +65,7 @@ const SideCollapse = React.createClass({
 
 
   renderFixed() {
-    const {isOpened, style, children, fixedWidth, springConfig, keepCollapsedContent,
+    const {isOpened, style, children, fixedWidth, keepCollapsedContent,
       ...props} = this.props;
 
     if (this.renderStatic) {
@@ -109,7 +109,7 @@ const SideCollapse = React.createClass({
 
 
   render() {
-    const {isOpened, style, children, fixedWidth, springConfig, keepCollapsedContent,
+    const {isOpened, style, fixedWidth, keepCollapsedContent,
       ...props} = this.props;
 
     if (fixedWidth > -1) {

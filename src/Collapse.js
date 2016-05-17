@@ -3,9 +3,7 @@ import {shouldComponentUpdate} from 'react-addons-pure-render-mixin';
 import {Motion, spring} from 'react-motion';
 import HeightReporter from 'react-height';
 
-
 const stringHeight = height => Math.max(0, parseFloat(height)).toFixed(1);
-
 
 const Collapse = React.createClass({
   propTypes: {
@@ -67,7 +65,7 @@ const Collapse = React.createClass({
 
 
   renderFixed() {
-    const {isOpened, style, children, fixedHeight, springConfig, keepCollapsedContent,
+    const {isOpened, style, children, fixedHeight, keepCollapsedContent,
       ...props} = this.props;
 
     if (this.renderStatic) {
@@ -111,7 +109,7 @@ const Collapse = React.createClass({
 
 
   render() {
-    const {isOpened, style, children, fixedHeight, springConfig, keepCollapsedContent,
+    const {isOpened, style, fixedHeight, keepCollapsedContent,
       ...props} = this.props;
 
     if (fixedHeight > -1) {

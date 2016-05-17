@@ -62,7 +62,7 @@ const ReactWidth = React.createClass({
 
 
   render() {
-    const {onWidthReady, hidden, children, ...props} = this.props;
+    const {hidden, children, ...props} = this.props;
     const {dirty} = this.state;
 
     if (hidden && !dirty) {
